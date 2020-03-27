@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/Users/prasannapilankar/Airbnb-Practice-Repo"
+		},
+		{
+			"name": "practice-codealong-greyatom",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practice-codealong-greyatom"
+	}
+}
