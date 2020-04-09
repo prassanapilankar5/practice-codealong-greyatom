@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RWD1</title>
+    
+    <style>
+      *{
+          box-sizing: border-box;
+      }
+      .header{
+          padding: 60px;
+          text-align: center;
+          background: blue;
+          color: white;
+      }
+      .navbar{
+          display: flex;
+          background: grey;
+      }
+      .navbar a{
+          color: white;
+          padding: 14px 20px;
+          text-align: center;
+      }
+
+      .row{
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .side{
+          flex: 30%;
+          background-color: white;
+          padding: 20px;
+      }
+      .main{
+          flex: 70%;
+          background-color: blueviolet;
+          padding: 20px;
+      }
+      .dimg{
+          background-color: #888888;
+          width: 100%;
+          padding: 20px;
+      }
+
+   @media screen and(max-width 700px){
+       .row .navbar{
+           flex-direction: column;
+       }
+   }
+      
+    </style>
+</head>
+
+    <div class="header">
+        <h1>Website</h1>
+        <p>responsive in nature.</p>
+    </div>
+
+    <div class="navbar">
+        <a>link1</a>
+        <a>link2</a>
+        <a>link3</a>
+        <a>link4</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>Info</h2>
+            <h5>Photo</h5>
+            <div class="dimg">image</div>
+            <p>some random text</p>
+            <h3>some more random textttt</h3>
+            <div class="dimg">image1</div>
+            <div class="dimg">image2</div>
+            <div class="dimg">image3</div>
+        </div>
+
+        <div class="main">
+            <h2>main Info</h2>
+            <h5>description</h5>
+            <div class="dimg">image</div>
+            <p>some more text</p>
+            <p>some more more more random text</p>
+        </div>
+    </div>
+
+
+    
+
+</html>
